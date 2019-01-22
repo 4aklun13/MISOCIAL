@@ -66,7 +66,17 @@ border-bottom: 1px solid transparent;
 	border-bottom: 2px solid #fff;
 
 }
-.header__btn{
+.button{
+	display: inline-block;
+	color: #c2c9db;
+	font-weight: bold;
+	background-color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+	text-transform: uppercase;
+	padding: 20px 30px;
+}
+.header__button{
 	display: inline-block;
 	color: #fff;
 	font-weight: bold;
@@ -95,6 +105,7 @@ border-bottom: 1px solid transparent;
 
 .block__aside{
  position: relative; 
+ padding: 0 0 0 30px;
 }
  .block__aside::before{ 
  	content: "";  
@@ -104,6 +115,7 @@ border-bottom: 1px solid transparent;
  	height: 1px; 
  	background-color: #fff;
  	margin-left: -30px;
+ 	top: 8px;
 }
 .block__title{
 	font-size: 2.5rem;
@@ -111,10 +123,10 @@ border-bottom: 1px solid transparent;
 	margin: 0;
 }
 .block__text{}
-.block__btn{
+.block__button{
 	margin-top: 50px;
 }
-.button{
+.button__start{
 	display: inline-block;
 	color: #c2c9db;
 	font-weight: bold;
@@ -147,23 +159,56 @@ border-bottom: 1px solid transparent;
 	bottom: 70px;
 }
 .top__arrow-img{
-	text-align: center;
+	background: url(../img/arrows.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px;
 }
 .info{
 	background-image: url(../img/background2.png);
 	height: 1080px;
 }
-.info__container{}
+.info__container{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .info__block{
 	color:  #9fa4af;
 }
 .info__aside{
+	position: relative;
+	padding: 0 0 0 30px;
+}
+.info__aside::before{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #6e45e2;
+    margin-left: -30px;
+    top: 8px;
 }
 .info__title{
+	font-size: 2.5rem;
 	color:  #4f4f6f;
 }
-.info__text{}
-.info__btn{}
+.info__text{
+	margin: 40px 0px 40px 0px;
+}
+.info__button{}
+.button__core{
+	display: inline-block;
+	color: #c2c9db;
+	font-weight: bold;
+	background-color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+	text-transform: uppercase;
+	padding: 20px 45px;
+	margin-left: 10px;
+}
 .info__arrow{}
 .features__table{}
 .table__item{}
