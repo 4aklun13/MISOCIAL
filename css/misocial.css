@@ -7,8 +7,12 @@ body {
 .container{}
 .nav{}
 .block{}
-.a{}
-.li{}
+.a{
+	text-decoration: none;
+}
+.li{
+	list-style: none;
+}
 
 
 
@@ -152,14 +156,11 @@ border-bottom: 1px solid transparent;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	background-color: #9fa4af;
+	background-color: #fff;
 	cursor: pointer;  
 	left: 50%; 
-	translate: transformX(-50%);
 	bottom: 70px;
-}
-.top__arrow-img{
-	background: url(../img/arrows.png);
+	background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 9px;
