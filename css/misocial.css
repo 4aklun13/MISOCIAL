@@ -171,6 +171,8 @@ border-bottom: 1px solid transparent;
 }
 .info{
 	background-image: url(../img/background2.png);
+	background-repeat: no-repeat; 
+	/*background-size: cover;*/
 	height: 1075px;
 }
 .info__container{
@@ -180,6 +182,7 @@ border-bottom: 1px solid transparent;
 }
 .info__block{
 	color:  #9fa4af;
+	    padding: 285px 40px 0px 0px;
 }
 .info__aside{
 	position: relative;
