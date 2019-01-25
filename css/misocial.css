@@ -6,11 +6,13 @@ body {
 }
 .container{}
 .nav{}
-.block{}
+.block{
+ color:  #9fa4af;
+}
 .a{
 	text-decoration: none;
 }
-.li{
+.ul{
 	list-style: none;
 }
 
@@ -126,7 +128,9 @@ border-bottom: 1px solid transparent;
 	font-weight: 400;
 	margin: 0;
 }
-.block__text{}
+.block__text{
+	margin: 30px 0px 30px 0px;
+}
 .block__button{
 	margin-top: 50px;
 }
@@ -167,7 +171,7 @@ border-bottom: 1px solid transparent;
 }
 .info{
 	background-image: url(../img/background2.png);
-	height: 1080px;
+	height: 1075px;
 }
 .info__container{
 	display: flex;
@@ -180,6 +184,7 @@ border-bottom: 1px solid transparent;
 .info__aside{
 	position: relative;
 	padding: 0 0 0 30px;
+	text-transform: uppercase;
 }
 .info__aside::before{
 	content: "";
@@ -190,6 +195,7 @@ border-bottom: 1px solid transparent;
     background-color: #6e45e2;
     margin-left: -30px;
     top: 8px;
+    
 }
 .info__title{
 	font-size: 2.5rem;
@@ -210,8 +216,70 @@ border-bottom: 1px solid transparent;
 	padding: 20px 45px;
 	margin-left: 10px;
 }
-.info__arrow{}
+.info__arrow{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #6e45e2;
+	cursor: pointer;  
+	left: 50%; 
+	/*bottom: 70px;*/
+	background-image: url(../img/arrows.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px;
+}
+
 .features__table{}
 .table__item{}
 .table__img{}
+.about{
+	background-image: url(../img/background4.png);
+	height: 1070px;
+}
+.about__container{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.about__block{
+ /*color:  #9fa4af*/
+} 
+.about__aside{
+	position: relative;
+	padding: 0 0 0 30px;
+	text-transform: uppercase;
+}
+.about__aside::before{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #6e45e2;
+    margin-left: -30px;
+    top: 8px;
+}
+.about__title{
+	font-size: 2.5rem;
+	color:  #4f4f6f;
+}
+.about__text{
+	margin: 40px 0px 40px 0px;
+}
+.about__arrow{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;  
+	left: 70%; 
+/*	bottom: 135px;*/
+	background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px;
+}
 				
