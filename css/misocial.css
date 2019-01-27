@@ -243,6 +243,7 @@ border-bottom: 1px solid transparent;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 9px;
+    bottom: 30px;
 }
 
 .features__table{}
