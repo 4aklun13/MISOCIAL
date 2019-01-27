@@ -179,15 +179,17 @@ border-bottom: 1px solid transparent;
 	background-repeat: no-repeat; 
 	background-size: cover;
 	height: 100vh;
+	position: relative;
 }
 .info__container{
+	position: relative;
 	display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
 .info__block{
-	margin-right: 100px;
+	margin-right: 250px;
 	color:  #9fa4af;
 	
 }
@@ -237,7 +239,6 @@ border-bottom: 1px solid transparent;
 	background-color: #6e45e2;
 	cursor: pointer;  
 	left: 50%; 
-	/*bottom: 70px;*/
 	background-image: url(../img/arrows.png);
     background-repeat: no-repeat;
     background-position: center;
