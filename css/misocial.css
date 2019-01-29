@@ -256,10 +256,76 @@ border-bottom: 1px solid transparent;
     background-size: 9px;
     bottom: 30px;
 }
+.futures{
+	background-image: url(../img/background3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+.futures__container{}
+.futures__head{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	padding: 100px;
+}
+.futures__head-aside{
+	font-size: 12px;
+	;font-weight: 500;
+	text-transform: uppercase;
+}
+.futures__head-aside:before{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    margin-left: -30px;
+	top: 119px;
+}
+.futures__head-aside:after{
+ 	content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    margin-left: 95px;
+	top: 119px;
+}
+.futures__head-title{
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0;
+}
+.futures__head-text{
+	font-size: 12px;
+	line-height: 35px;
+}
 
-.features__table{}
-.table__item{}
-.table__img{}
+.features__table{
+	margin: 0;
+	list-style: none;
+	display: flex;
+}
+.feature__table-item{
+	position: relative;
+}
+.futures__table-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;  
+	background-image: url(../img/design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+}
 .about{
 	background-image: url(../img/background4.png);
 	background-position: center;
