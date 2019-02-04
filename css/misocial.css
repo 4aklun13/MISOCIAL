@@ -252,18 +252,15 @@ border-bottom: 1px solid transparent;
     bottom: 30px;
 }
 .features{
-	background-image: url(../img/background3.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	height: 170vh;
+	 background: linear-gradient(500deg, #7153e0, #85c5d0);
+	 background-size: cover;
+	 height: 170vh;
 }
+
 .features__container{
 	max-width: 1000px;
 	margin: 0 auto;
     padding: 0 50px;
- 
 }
 .features__block{
 	display: flex;
