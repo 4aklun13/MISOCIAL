@@ -53,6 +53,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 9px;
+   
 }
 
 
@@ -322,11 +323,14 @@ border-bottom: 1px solid transparent;
 	line-height: 20px;
 	font-size: 12px;
 }
+.features{
+	position: relative;
+}
 .features__img{
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	max-width: 1000px;
-	margin-top: 100px;
+	bottom: -87px;
 }
 .features__img::before{
 	content: "";
@@ -335,7 +339,7 @@ border-bottom: 1px solid transparent;
 	height: 10px;
 	width: 960px;
 	background-color: #6e45e2;
-	z-index: 2;
+	z-index: 1;
 }
 .features__img::after{
 	content: "";
@@ -344,7 +348,31 @@ border-bottom: 1px solid transparent;
 	height: 10px;
 	width: 920px;
 	background-color: #7776db;
-	z-index: 3;
+	z-index: 1;
+}
+.features__arrow{
+	z-index: 4;
+	bottom: -110px;
+	box-shadow: 0 0 10px rgb(242, 242, 247);
+}
+.testimonials{
+	position: relative;
+	height: 100vh;
+}
+.testimonials__container{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	max-width: 1000px;
+}
+.testimonials__block{
+	max-width: 320px;
+}
+.testimonials__block .about__text{
+	font-size: 16px;
+}
+.testimonials__arrow{
+box-shadow: 0 0 10px rgb(242, 242, 247);
 }
 .about{
 	background: url(../img/komp-bg.jpg);
@@ -406,9 +434,11 @@ border-bottom: 1px solid transparent;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 9px;
+    box-shadow: 0 0 10px rgb(242, 242, 247);
 }
 .team{
 	text-align: center;
+	position: relative;
 }
 .team__container{
 	max-width: 1300px;
@@ -453,6 +483,11 @@ border-bottom: 1px solid transparent;
 .team__block .block__aside-two::after{
 	background-color: #6e45e2;
 	right: 100px;
+}
+.team__arrow{
+	box-shadow: 0 0 10px rgb(242, 242, 247);
+	bottom: -25px;
+	z-index: 1;
 }
 .bottom{
 	background-image: url(../img/BG.png);
