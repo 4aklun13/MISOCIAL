@@ -35,6 +35,7 @@ body {
 	min-width: 175px;
 	transition: 0.7s;
 	font-family: 'Maven pro';
+	margin-top: 30px;
 }
 .button:hover{
 	color: #fff;
@@ -179,7 +180,8 @@ border-bottom: 1px solid transparent;
 .block__text{
 	line-height: 25px;
 	font-size: 14px;
-	margin: 30px 0px 30px 0px;
+	margin-top: 30px;
+	margin-bottom: 0;
 }
 
 .top__arrow{
@@ -228,16 +230,9 @@ border-bottom: 1px solid transparent;
     background-color: #6e45e2;
     top: 7px;
 }
-.button__core{
-	display: inline-block;
-	color: #c2c9db;
-	font-weight: bold;
-	background-color: #fff;
-    cursor: pointer;
-    border-radius: 30px;
-	text-transform: uppercase;
-	padding: 20px 45px;
-	margin-left: 10px;
+
+.info__button .button{
+	box-shadow: 0 0 10px rgb(215, 219, 232);
 }
 .info__arrow{
 	position: absolute;
@@ -257,6 +252,7 @@ border-bottom: 1px solid transparent;
 	 background: linear-gradient(500deg, #7153e0, #85c5d0);
 	 background-size: cover;
 	 height: 170vh;
+	 position: relative;
 }
 
 .features__container{
@@ -323,9 +319,6 @@ border-bottom: 1px solid transparent;
 	line-height: 20px;
 	font-size: 12px;
 }
-.features{
-	position: relative;
-}
 .features__img{
 	position: absolute;
 	z-index: 2;
@@ -350,6 +343,26 @@ border-bottom: 1px solid transparent;
 	background-color: #7776db;
 	z-index: 1;
 }
+.features__leaf{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 500px;
+	padding: 100px;
+
+}
+.leaf__switch{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #7d81d8;
+	cursor: pointer;  
+	background-image: url(../img/left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px;
+
+}
 .features__arrow{
 	z-index: 4;
 	bottom: -110px;
@@ -370,6 +383,18 @@ border-bottom: 1px solid transparent;
 }
 .testimonials__block .about__text{
 	font-size: 16px;
+}
+.testimonials__img{}
+.img__play{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #6e45e2;
+	cursor: pointer;  
+	background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px;
 }
 .testimonials__arrow{
 box-shadow: 0 0 10px rgb(242, 242, 247);
