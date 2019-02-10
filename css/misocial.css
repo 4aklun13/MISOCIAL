@@ -6,7 +6,6 @@ body {
 }
 .container{
 	max-width: 1820px;
-	padding: 0 50px;
 	margin: 0 auto;
 }
 .nav{}
@@ -257,7 +256,6 @@ border-bottom: 1px solid transparent;
 
 .features__container{
 	max-width: 1000px;
-	margin: 0 auto;
     padding: 0 50px;
 }
 .features__block{
@@ -279,7 +277,7 @@ border-bottom: 1px solid transparent;
 }
 .features__table{
 	color: #fff;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	list-style: none;
 	display: flex;
@@ -488,10 +486,15 @@ box-shadow: 0 0 10px rgb(242, 242, 247);
 	font-family: 'Maven pro';
 	list-style: none;
 }
-.team__item{
+.gallery__item{
 	max-width: 370px;
+	width: 33.3%;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 .team__img{
+	display: block;
+	width: 100%;
 	margin-bottom: 40px;
 }
 .team__title{
