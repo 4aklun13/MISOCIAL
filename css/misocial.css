@@ -346,12 +346,20 @@ border-bottom: 1px solid transparent;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	background-color: #7d81d8;
+	background-color: #7882d8;
 	cursor: pointer;  
 	background-image: url(../img/left.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 9px;
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+}
+.switch__right{
+	background-color:  #6e45e2;
+	left: 1290px;	
+	transform: rotate(180deg);
 }
 .features__arrow{
 	z-index: 4;
@@ -367,15 +375,23 @@ border-bottom: 1px solid transparent;
 	align-items: center;
 	height: 100%;
 	max-width: 1000px;
+	position: relative;
 }
 .testimonials__block{
 	max-width: 320px;
+	margin-top: -120px;
 }
 .testimonials__block .about__text{
 	font-size: 16px;
+	line-height: 25px;
 }
-.testimonials__img{}
-.img__play{
+.testimonials__img{
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.testimonials__play{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -385,9 +401,15 @@ border-bottom: 1px solid transparent;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 9px;
+    position: absolute;
+    right: 310px;
+}
+.testimonials__play:hover{
+	transform: scale(1.2);
 }
 .testimonials__arrow{
-box-shadow: 0 0 10px rgb(242, 242, 247);
+	box-shadow: 0 0 10px rgb(242, 242, 247);
+	bottom: 120px;
 }
 .about{
 	background: url(../img/komp-bg.jpg);
