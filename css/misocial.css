@@ -132,6 +132,9 @@ border-bottom: 1px solid transparent;
 	outline: none;
 	font-size: 12px;
 }
+.head__button:hover{
+	transform: scale(1.1);
+}
                         /*HEADER*/
 
                         /*BLOCK*/
@@ -366,7 +369,7 @@ border-bottom: 1px solid transparent;
 	bottom: -110px;
 	box-shadow: 0 0 10px rgb(242, 242, 247);
 }
-.testimonials{
+/*.testimonials{
 	position: relative;
 	height: 100vh;
 }
@@ -410,7 +413,7 @@ border-bottom: 1px solid transparent;
 .testimonials__arrow{
 	box-shadow: 0 0 10px rgb(242, 242, 247);
 	bottom: 120px;
-}
+}*/
 .about{
 	background: url(../img/komp-bg.jpg);
 	background-position: center;
